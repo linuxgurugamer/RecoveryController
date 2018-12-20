@@ -273,7 +273,7 @@ namespace RecoveryController
     /// <summary>
     /// Class to take care of things in the editor
     /// </summary>
-    [KSPAddon(KSPAddon.Startup.SpaceCentre, false)]
+    [KSPAddon(KSPAddon.Startup.AllGameScenes, false)]
     public class RecoveryController : MonoBehaviour
     {
         const string AUTO = "auto";
